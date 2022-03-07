@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CakeWorld - Pedidos</title>
+</head>
+<body>
+    <h1>Realizar pedido</h1>
+    <br>
+    <form>
+        <p>Sabores principales:</p><br>
+        <input type="checkbox" id="ck" name="ck" value="Cheesecake">
+        <label for="ck">Cheesecake</label>
+
+        <input type="checkbox" id="ch" name="ch" value="Chocolate">
+        <label for="ch">Chocolate</label>
+
+        <input type="checkbox" id="zn" name="zn" value="Zanahoria">
+        <label for="zn">Zanahoria</label>
+
+        <input type="checkbox" id="rv" name="rv" value="Red Velvet">
+        <label for="rv">Red Velvet</label>
+
+        <br><br>
+        <p>Ingredientes adicionales:</p><br>
+        <input type="checkbox" id="ie_cb" name="ie_cb" value="Crema Batida">
+        <label for="ie_cb">Crema Batida</label>
+
+        <input type="checkbox" id="ie_cco" name="ie_cco" value="Chispas de colores">
+        <label for="ie_cco">Chispas de colores</label>
+
+        <input type="checkbox" id="ie_cch" name="ie_cch" value="Chispas de chocolates">
+        <label for="ie_cch">Chispas de chocolates</label>
+
+        <input type="checkbox" id="ie_rn" name="ie_rn" value="Rayadura de naranja">
+        <label for="ie_rn">Rayadura de naranja</label>
+
+        <br><br>
+        <p>Datos de cliente:</p><br>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Ingresa aqui tu Nombre">
+        <br>
+        <label for="phone">Telefono (10 digitos):</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <br>
+        <label for="email">Correo electronico:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
