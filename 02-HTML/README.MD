@@ -22,6 +22,6 @@ Descripción:<br>
 ## Prácticas a Realizar
 
 Prácticas:
-- Crear marca de la pastelería como un logo y los mensajes que daremos desde la marca.
-- Maquetación de páginas de cliente de la pastelería.
-- Maquetación de páginas del pastelero.
+- Crear marca de la pastelería como un logo y los mensajes que daremos desde la marca-->[Logo](https://www.canva.com/design/DAE6RfhRnxA/UWTNDyPuFxXg1HGjMNr1oQ/view?utm_content=DAE6RfhRnxA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton).
+- Maquetación de páginas de cliente de la pastelería-->[Principal](Index.html), [Pedidos](pedidos.html), [Contacto](contacto.html).
+- Maquetación de páginas del pastelero-->[Pastelero](Admin.html).
