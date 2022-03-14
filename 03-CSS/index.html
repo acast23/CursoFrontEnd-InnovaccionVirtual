@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <header>
         <a class="logo" initialFFFer="#">Vaccination</a>
@@ -25,21 +27,66 @@
         <a href="#"><button>Hoax Buster</button></a>
     </header>
     <section>
-      <div class="izq mitades" >
-        <h1>Fight Virus With Vaccines</h1>
-        <p class="subtext">Let's stop this pandemic by killing the virus with a vaccine, dont let yourself and your family get infected</p>
-        <ul class="beneficios">
-          <!--<i class="material-icons">verified_user</i>-->
-          <li><i class="material-icons">verified_user</i>
-            Best Protection</li>
-          <!--<i class="material-icons">star</i>-->
-           <li>
-             <i class="material-icons">star</i>
-             Selected Vaccines</li>
+        <div class="izq mitades">
+            <h1>Fight Virus With Vaccines</h1>
+            <p class="subtext">Let's stop this pandemic by killing the virus with a vaccine, dont let yourself and your
+                family get infected</p>
+            <ul class="beneficios">
+                <!--<i class="material-icons">verified_user</i>-->
+                <li><i class="material-icons">verified_user</i>
+                    Best Protection</li>
+                <!--<i class="material-icons">star</i>-->
+                <li>
+                    <i class="material-icons">star</i>
+                    Selected Vaccines
+                </li>
+            </ul>
+        </div>
+        <div class="der mitades">
+        </div>
+    </section>
+    <section class="agenda">
+        <div class="agenda_datos">
+            <!--<ul>
+          <li>Location</li>
+          <li>Date</li>
+          <li>Vaccine type</li>
         </ul>
-      </div>
-      <div class="der mitades">
-      </div>
+          <ul>
+          <li>Mexico</li>
+          <li>10 March 2022</li>
+          <li>Moderna</li>
+        </ul>-->
+            <label for="location">
+                <i class="material-icons">star</i>
+                Location </label>
+            <select id="location" name="location">
+                <option value="albania">Albania</option>
+                <option value="brazil">Brazil</option>
+                <option value="germany">Germany</option>
+                <option value="mexico">Mexico</option>
+            </select>
+
+            <label for="date">
+                <i class="material-icons">star</i>
+                Date </label>
+            <input type="date" id="date" name="date">
+
+            <label for="vaccine">
+                <i class="material-icons">star</i>
+                Vaccine </label>
+            <select id="vaccine" name="vaccine">
+                <option value="astrazeneca">AstraZeneca</option>
+                <option value="moderna">Moderna</option>
+                <option value="phizer">Phizer</option>
+            </select>
+
+        </div>
+
+        <div class="agenda_boton">
+            <a href="#"><button>Submit</button></a>
+        </div>
     </section>
 </body>
+
 </html>

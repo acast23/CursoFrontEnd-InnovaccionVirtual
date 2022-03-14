@@ -5,7 +5,7 @@
   }
   body{
     font-family: 'Poppins', sans-serif;
-    background-color: #F5F5DC;
+    background-color: #3262F0;
   }
   
   header{
@@ -66,15 +66,15 @@
   }
   
   .mitades{
-    height: 90vh;
+    height: 100vh;
   }
   
   .izq{
-    background-color: #F5F5DC;
+    /*background-color: #D3D3D3;*/
     padding-left: 8%;
     width: 55%;
+    background-color: #f7f7f7; 
   }
-  
   h1{
     font-size: 4rem;
     /*border: 2px solid red;*/
@@ -93,15 +93,31 @@
   .beneficios{
     /*border: 2px solid red;*/
     margin-top: 10%;
-    width: 70%;
+    width: 80%;
     display: flex;  
-    justify-content: space-between;
+  }
+  
+  .beneficios li{
+    /*border: 2px solid green;*/
+    padding: 0;
+    font-size: large;
+    width: 50%;
+    /*vertical-align: middle;*/
+    /*align-items: center;*/
+  }
+  
+  i{
+    /*border: 2px solid blue;*/
+    vertical-align: middle;
+    font-size: 120%;
+    border-radius: 8px;
   }
   
   .beneficios i{
-    border: 2px solid blue;
-    vertical-align: middle;
-    font-size: 20px;
+    padding: 2%;
+    margin-right: 2%;
+    color: orange;
+    background-color: #F5F5DC;
   }
   
   /*.beneficios li:before{
@@ -109,18 +125,47 @@
       font-family: 'Material Icons';
     }*/
   
-  .beneficios li{
-    border: 2px solid green;
-    padding: 0;
-    /*vertical-align: middle;*/
-    /*align-items: center;*/
-  }
-  
   .der{
     background: url(https://images.pexels.com/photos/6074969/pexels-photo-6074969.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
     background-size: cover;
     /*background-position: center;*/
     width: 45%; 
   }
+  
+  .agenda{
+    position:absolute;
+    z-index: 2;
+    width: 70%;
+    background-color: #FFFFFF;
+    top: 90%;
+    left: 8%;
+    opacity: 90%;
+    backdrop-filter: blur(2px);
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+  }
+  
+  .agenda_datos{
+    width: 80%;  
+  }
+  
+  .agenda_datos label:not(:first-child){
+    padding-left: 4%; 
+  }
+  
+  
+  .agenda_datos i{
+    padding: 4px;
+    margin-right: 1%;
+    color: #3262F0;
+    background-color: #F0F8FF;
+  }
+  
+  /*.agenda_datos ul{
+    border: 1px solid red;
+    margin: 2%;
+  }*/
   
   
