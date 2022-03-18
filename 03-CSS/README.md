@@ -6,10 +6,10 @@ Como pueden ver es una página de vacunación y en estos momentos que se está p
 
 La práctica consiste en lo siguiente:
 
-- Planeación de campaña de vacunación (Un poco de mercadotecnia para llegar al sitio)
+- Planeación de campaña de vacunación (Un poco de mercadotecnia para llegar al sitio) -->[Flujo de usuarios](./planmkt.png)
 - Maquetación del sitio con HTML
 - Estilos con CSS (Lo más acercado posible, pueden ser otras imágenes, íconos o colores, pero tiene que ser lo más cercano que puedas)
 
 Bonus:
 - Bonus de diseños o páginas adicionales (Totalmente a tu creatividad)
-- Bonus de despliegue de la página 
+- Bonus de despliegue de la página --> [Página](https://acast23.github.io/CursoFrontEnd-InnovaccionVirtual/03-CSS/)
