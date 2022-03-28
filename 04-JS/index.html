@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="index.css">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+		<!--<script src="https://cdn.tailwindcss.com"></script>-->
+</head>
+<body>
+    <nav>
+      <a href="#"> 
+      <img class="logo_img" src="https://www.freepnglogos.com/uploads/pokemon-symbol-logo-png-31.png" alt="logo image, source:https://www.freepnglogos.com/pics/pokemon-logo-png">
+      <h1>Pokédex</h1>
+      </a>
+    </nav>
+    <main>
+  <section class="searchbar grid_c">
+        <h2>¡Busca a un pokémon!</h2>
+  <div class="s_comp">
+          <button class="search_btn" id="poke_btn"><i class="material-icons">search</i></button>
+          <input id="poke_name" placeholder="Ingresa el nombre aquí" value="pikachu"></input>
+          <button class="del_btn"><i class="material-icons">close</i></button>
+        </div>
+  </section>
+    
+    <section class="data grid_c">
+        <img class= "poke_img" id= "poke_img" src="https://media.giphy.com/media/oP7fmxbAnL245YrAEX/giphy.gif" alt="Pokemon image" id="pokeImg">
+        <article>
+          <h2 id="poke_title">Nombre del Pokémon</h2>
+          <ul>
+            <li>Tipo:<p id="poke_type">?</p></li>
+            <li>Altura:<p id="poke_height">?</p></li>
+            <li>Peso:<p id="poke_weight">?</p></li>
+            <li>Movimientos:<p id="poke_moves">?</p></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+    <footer>footer</footer>
+  </body>
+<footer>
+    <script src="index.js"></script>
+</footer>
+</html>
